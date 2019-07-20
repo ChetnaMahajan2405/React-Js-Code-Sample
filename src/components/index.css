@@ -1,0 +1,83 @@
+
+.form-box {
+    margin: auto;
+    background-color: #ffffff;
+    border: 3px solid #f6f6f6;
+    padding-top: 16px; 
+    padding-bottom: 25px;
+};
+
+@media all and (min-width : 1200px) {
+    .form-box {
+        width: 400px;
+        padding-top: 31px; 
+        padding-bottom: 40px;
+    }
+}
+
+@media all and (min-width : 768px) {
+    .form-box {
+        width: 400px;
+        padding-top: 31px; 
+        padding-bottom: 40px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .form-box {
+        width: 400px;
+        padding-top: 31px; 
+        padding-bottom: 40px;
+    }
+
+}  
+
+div .form-box .form-header {
+    font-size: 24px;
+    color: #414141;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+}
+
+div .form-box .form-subHeading {
+    font-size: 14px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+}
+
+div .form-box .input-container { 
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 35px;
+}
+
+@media all and (max-width: 600px) {
+    div .form-box .input-container  {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+.carousel {
+    margin-top: 141px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 600px) {
+    .carousel {
+        margin-top: 100px;
+    }
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}

@@ -1,0 +1,48 @@
+
+.tile {
+    margin-bottom: 20px;
+}
+
+.tile .image {
+    border: 3px solid #f6f6f6;
+    height: 220px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 600px) {
+    .tile .image  {
+        height: 120px;
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+}
+
+.tile .header {
+    font-size: 14px;
+    color: #f6f6f6;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.tile .sub-header {
+    font-size: 18px;
+    color: #05549f;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+@media all and (max-width: 600px) {
+    .tile .header  {
+        font-size: 10px;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    .tile .sub-header  {
+        font-size: 14px;
+    }
+
+}

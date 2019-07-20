@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectAvatar should handle LOGIN_FAILURE 1`] = `
+Array [
+  Object {
+    "type": "LOGIN_START",
+  },
+]
+`;
+
+exports[`selectAvatar should handle LOGIN_SUCCESS 1`] = `
+Array [
+  Object {
+    "type": "LOGIN_START",
+  },
+]
+`;

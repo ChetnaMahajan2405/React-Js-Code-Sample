@@ -1,0 +1,38 @@
+
+div .form-box .label {
+    font-size: 14px;
+    color: #414141;
+    font-family: "Open Sans";
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+div .form-box .checkBoxWrapper{
+    font-size: 12px;
+    color: #414141;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+
+.forgot {
+    font-size: 12px;
+    color: #05549f;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: right;
+    float: right;
+}
+
+.error {
+    width: 112px;
+    height: 23px;
+    background-color: #fff0f1;
+    font-size: 12px;
+    color: #f6303f;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2px;
+    float: right;
+}

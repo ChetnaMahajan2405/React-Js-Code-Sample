@@ -1,0 +1,32 @@
+div .form-box .checkBox {
+    width: 20px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+@media all and (max-width: 600px) {
+    div .form-box .checkBox {
+        padding-top: 15px; 
+    }
+
+}
+
+div .form-box .checkBox:after {
+    content: " ";
+    background-color: #05549f;
+    display: inline-block;
+    visibility: visible;
+}
+  
+div .form-box .checkBox:checked:after {
+    content: "\2714";
+    box-shadow: none;
+    border-radius: 3px;
+    display: block;
+    width: 12px;
+    text-align: center;
+    font-size: 9px;
+    color: white;
+    margin-left: 3px;
+    margin-right: 5px;
+}

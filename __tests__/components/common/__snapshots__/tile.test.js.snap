@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tile render() Snapshot for Tile 1`] = `
+<div
+  className="tile"
+>
+  <Image
+    alt="tile"
+    className="image"
+    onErrorImage=""
+    src="assets/images/tile1.jpg"
+  />
+  <div
+    className="header"
+  >
+     
+     
+  </div>
+  <div
+    className="sub-header"
+  >
+     
+     
+  </div>
+</div>
+`;
